@@ -1,0 +1,17 @@
+{
+  "name": "edumeter-worker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "run": "tsx src/worker.ts"
+  },
+  "dependencies": {
+    "pg": "^8.11.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "tsx": "^4.19.2",
+    "typescript": "~5.8.2"
+  }
+}
